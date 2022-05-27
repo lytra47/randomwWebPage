@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap");
+
+body {
+  background-color: rgb(21, 25, 44);
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 85%;
+  border: none;
+  height: 1px;
+  background-color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+ */
+
+.header a:hover {
+  color: rgb(4, 149, 206);
+  text-shadow: 0 0 15px black;
+}
+
+.header {
+  z-index: 5;
+  width: 100%;
+  height: 65px;
+  background-color: #40407a;
+  left: 0;
+  position: fixed;
+  top: 0;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 6px black;
+  display: flex;
+  text-shadow: 0 0 15px black;
+}
+.navig8 {
+  padding: 1.5%;
+  position: relative;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.textholder {
+  margin-inline: auto;
+  margin-top: 10%;
+  width: 90%;
+  height: 300px;
+}
+.S2 {
+  margin-top: 0;
+  margin-right: 8%;
+}
+
+.container {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  margin-inline: auto;
+  margin-top: 10%;
+  width: 90%;
+  height: 500px;
+  background-color: #40407a;
+  border-radius: 15px;
+  padding-bottom: 6%;
+  box-shadow: 0 0 15px black;
+}
+.c2 {
+  margin-top: -6%;
+  padding-top: 2%;
+  height: 440px;
+}
+
+.heading {
+  padding: 1% 2%;
+}
+
+/* INNERS */
+.innerB {
+  margin: 2% 5%;
+  width: 90%;
+  height: 200px;
+}
+
+.ib2 {
+  margin-top: 0%;
+  margin-left: 13%;
+}
+.tileB {
+  margin: auto;
+  width: 30%;
+  height: 200px;
+  background-color: transparent;
+  float: right;
+}
+.b2 {
+  float: left;
+}
+.b2 p {
+  text-align: center;
+  margin-top: 1%;
+  margin-left: -20%;
+  color: white;
+  text-shadow: 0 0 15px black;
+  font-family: "Kanit", sans-serif;
+}
+
+.bluetext {
+  color: rgb(4, 149, 206);
+  font-size: 20px;
+  margin-top: 20%;
+}
+.bluetext:hover {
+  color: white;
+  cursor: default;
+}
+.buttons {
+  width: 40%;
+  height: 70px;
+  background-color: #40407a;
+  margin-top: 3%;
+  margin-left: 8%;
+  float: left;
+  border-radius: 10px;
+  transition: transform 600ms, background-color 600ms;
+  box-shadow: 0 0 15px black;
+}
+.buttons:hover {
+  transform: scale(1.05);
+  background-color: #6464c2;
+}
+.b1 {
+  margin-top: 9%;
+}
+
+.buttons p {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 3%;
+  font-size: 25px;
+}
+.buttons p:hover {
+  color: white;
+}
+
+.tileB img {
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: transform 0.8s;
+  box-shadow: 0 0 15px black;
+  border: none;
+}
+.tileB img:hover {
+  transform: scale(1.1);
+}
+
+.textB {
+  margin: auto;
+  width: 40%;
+  height: 200px;
+
+  float: left;
+}
+.textB h4 {
+  float: left;
+  margin-top: -5%;
+  margin-bottom: 0;
+  margin-left: 6%;
+  font-size: 50px;
+  color: rgb(4, 149, 206);
+}
+.textB h4:hover {
+  color: white;
+}
+
+.textB p {
+  float: left;
+  margin-top: 2%;
+  margin-left: 6.5%;
+}
+
+.WhiteBold {
+  margin: -1% 0%;
+  font-size: 40px;
+  color: white;
+}
+.WhiteBold:hover {
+  color: rgb(34, 117, 189);
+  cursor: default;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #40407a;
+  height: 50px;
+  display: flex;
+  padding: 5%;
+}
+.footkon {
+  font-size: 100px;
+  color: rgb(34, 117, 189);
+  margin-right: 5%;
+}
+.footkon:hover {
+  color: white;
+}
+.footer p {
+  color: white;
+  font-size: 30px;
+  margin: 4% 1%;
+}
+
+/* 
+*/
+
+#address {
+  color: white;
+  margin-top: -85px;
+  padding-left: 550px;
+}
+#address h2:hover,
+p:hover {
+  color: rgb(34, 117, 189);
+}
+
+#clumsy {
+  margin-top: 3%;
+
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+#clumsy:hover {
+  color: rgb(34, 117, 189);
+  cursor: default;
+}
+
+#maintag {
+  margin: 0.5% 40% 0 2%;
+  color: white;
+}
+#maintag:hover {
+  color: rgb(34, 117, 189);
+  cursor: crosshair;
+}
+#maintag i {
+  margin-right: 0%;
+  padding-right: 14px;
+}
+
+#mando {
+  border: 4px solid rgb(34, 117, 189);
+  float: right;
+  width: 25%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 5%;
+  box-shadow: 0 0 15px black;
+  transition: transform 600ms;
+}
+
+#mando:hover {
+  transform: scale(1.1);
+}
+
+#arrow {
+  margin: 10% 48.5%;
+  font-size: 60px;
+  color: #40407a;
+  transition: transform 600ms, color 600ms;
+  text-shadow: 0 0 15px black;
+}
+
+#arrow:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#arrow .fa-solid {
+  color: #40407a;
+}
+.fa-solid:hover {
+  color: white;
+}
+
+#books:hover {
+  color: rgb(34, 117, 189);
+}
+
+#between {
+  margin-top: 6%;
+}
